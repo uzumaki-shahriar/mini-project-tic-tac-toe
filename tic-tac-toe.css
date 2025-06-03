@@ -39,7 +39,7 @@ body{
     width: 18vmin;
     border: none;
     border-radius: 1rem;
-    box-shadow: 0 0 10px rgba(87, 87, 87, 0.498);
+    box-shadow: 0 0 10px rgba(30, 0, 255, 0.599);
     font-size: 8vmin;
     font-family: Poppins;
     background: #E5989B;
@@ -50,7 +50,9 @@ body{
 .cell:hover{
     background: #4f7ff9;
     color: #ffffff;
-    box-shadow: 0 0 10px rgba(87, 87, 87, 0.498);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
 }
 
 #reset-btn{
