@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    background-color: #191D32;
+    color: white;
+    text-align: center;
+}
+
+.game{
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.board{
+    height: 60vmin;
+    width: 60vmin;
+    border: white 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1.69vmin;
+    padding: 0 auto;
+}
+
+.cell{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(87, 87, 87, 0.498);
+    font-size: 8vmin;
+    font-family: Poppins;
+    background: #E5989B;
+    color: #091540;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background: #4f7ff9;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(87, 87, 87, 0.498);
+}
+
+#reset-btn{
+    background: #F7A072;
+    color: #1E1E24;
+    font-family: Poppins;
+    border: none;
+    font-size: 5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 1.4rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#reset-btn:hover{
+    background: #4f7ff9;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(87, 87, 87, 0.498);
+}
+
+.status{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    color: #F7A072;
+    font-weight: 600;
+}
+
+.winner {
+  background-color: yellow;
+  /* or any style you want for the winning cells */
+}
+

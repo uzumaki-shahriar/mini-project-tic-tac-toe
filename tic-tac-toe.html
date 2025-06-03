@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+
+<body>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="game">
+            <div class="board">
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+                <button class="cell"></button>
+            </div>
+
+            <div class="status">
+                <p id="status-text"></p>
+        </div>
+        <div class="controls">
+            <button id="reset-btn">Reset</button>
+        </div>
+    </main>
+
+
+    <script src="tic-tac-toe.js"></script>
+</body>
+
+</html>
+
+<!-- Winning patterns -->
+<!-- 012
+     345
+     678
+     036
+     147
+     258
+     048
+     246 -->
