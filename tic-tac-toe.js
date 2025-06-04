@@ -26,6 +26,8 @@ cell_buttons.forEach((cell) => {
                 turnO = !turnO;
                 status_text.textContent = `Player ${turnO ? 'O' : 'X'}'s turn`;
             }
+
+            
         }
 
     });
