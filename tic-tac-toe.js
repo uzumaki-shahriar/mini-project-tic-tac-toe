@@ -46,6 +46,11 @@ const checkWinner = () => {
             return;
         }
     }
+    if ([...cell_buttons].every(cell => cell.textContent !== '')) {
+        status_text.textContent = "It's a draw!";
+        gameOver = true;
+        return;
+    }
 }
 
 reset_button.addEventListener('click', () => {
